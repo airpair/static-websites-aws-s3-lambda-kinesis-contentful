@@ -4,7 +4,7 @@ At the last Amazon AWS re:Invent the [Lambda](http://aws.amazon.com/lambda/) ser
 
 ## Generating CMS-powered static websites
 
-At Contentful we run internal hack days several times a year, during which everyone works on an experimental project for one working day. AWS Lambda stroke my interest as a possibility to run spiky workloads on demand in an event-driven fashion, without having to worry about any detail of the hosting, and with a highly cost-efficient model.
+At Contentful we run internal hack days several times a year, during which everyone works on an experimental project for one working day. AWS Lambda stoked my interest as a possibility to run spiky workloads on demand in an event-driven fashion, without having to worry about any detail of the hosting, and with a highly cost-efficient model.
 
 One possible interesting application that came to mind is static website generation, since AWS S3 is a popular hosting system for static websites. I started wondering how would it be to put together S3 and Lambda to generate a static website. Certainly, I wanted to use the [Contentful Delivery API](https://www.contentful.com/developers/documentation/content-delivery-api/) as the content source – not only because I work at Contentful (which is still a good reason anyway), but also because a JSON-based HTTP content delivery API is exceptionally well suited for use cases as such.
 
